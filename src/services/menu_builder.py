@@ -31,6 +31,8 @@ class MenuBuilder:
         new_list = []
         for dish in menu:
             recipe = dish.recipe
+            if self.inventory.check_recipe_availability(recipe) is False:
+                return []
             restrictions = dish.get_restrictions()
             if 0 not in recipe.values() and restriction not in restrictions:
                 new_list.append({

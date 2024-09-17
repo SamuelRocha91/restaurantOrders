@@ -1,5 +1,15 @@
 # 🍝🦐 Chapa Quente 🍛🥘 - Gerador de Cardápios
 
+<h2>🌐</h2>
+<ul>
+  <li><a href="https://github.com/SamuelRocha91/restaurantOrders" target="_blank">Português</a></li>
+  <li><a href="https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_es.md" target="_blank">Español</a></li>
+  <li><a href="https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_en.md" target="_blank">English</a></li>
+  <li><a href="https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_ru.md" target="_blank">Русский</a></li>
+  <li><a href="https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_ch.md" target="_blank">中文</a></li>
+  <li><a href="https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_ar.md" target="_blank">العربية</a></li>
+</ul>
+
 ![Manipulação de classes no REPL do Python](./gifs/pythonRestaurant.gif)
 
 Este projeto foi desenvolvido para o restaurante **Chapa Quente** com o objetivo de criar uma ferramenta eficiente de construção de cardápios, considerando as restrições alimentares dos clientes e a disponibilidade de ingredientes no estoque. Atualmente, o gerenciamento de receitas e estoque é feito de maneira ineficiente através de arquivos CSV, e este projeto visa solucionar esse problema com uma abordagem mais organizada e funcional.

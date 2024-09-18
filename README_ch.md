@@ -40,13 +40,13 @@
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone git@github.com:SamuelRocha91/restaurantOrders.git
 ```
 
 ### 2. 导航到项目目录
 
 ```bash
-cd your-repository
+cd restaurantOrders
 ```
 
 ### 3. 创建虚拟环境 (可选，但建议)

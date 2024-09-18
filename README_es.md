@@ -39,13 +39,13 @@ Sigue las instrucciones a continuación para clonar y ejecutar el proyecto en tu
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
+git clone git@github.com:SamuelRocha91/restaurantOrders.git
 ```
 
 ### 2. Navegar al directorio del proyecto
 
 ```bash
-cd tu-repositorio
+cd restaurantOrders
 ```
 
 ### 3. Crear un entorno virtual (opcional, pero recomendado)

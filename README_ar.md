@@ -40,13 +40,13 @@
 ### 1. استنساخ المستودع
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone git@github.com:SamuelRocha91/restaurantOrders.git
 ```
 
 ### 2. انتقل إلى دليل المشروع
 
 ```bash
-cd your-repository
+cd restaurantOrders
 ```
 
 ### 3. إنشاء بيئة افتراضية (اختياري، لكنه موصى به)

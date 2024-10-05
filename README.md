@@ -1,79 +1,59 @@
-# 🍝🦐 Chapa Quente 🍛🥘 - Gerador de Cardápios
+# <img src="https://cdn-icons-png.flaticon.com/128/1822/1822921.png" alt="Python Logo" width="52" height="30" />  🍝🦐 Chapa Quente 🍛🥘 - Gerador de Cardápios <img src="https://cdn-icons-png.flaticon.com/128/1822/1822921.png" alt="Python Logo" width="52" height="30" />
 
-<h2>🌐</h2>
-<ul>
-  <li><a href="https://github.com/SamuelRocha91/restaurantOrders" target="_blank">Português</a></li>
-  <li><a href="https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_es.md" target="_blank">Español</a></li>
-  <li><a href="https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_en.md" target="_blank">English</a></li>
-  <li><a href="https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_ru.md" target="_blank">Русский</a></li>
-  <li><a href="https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_ch.md" target="_blank">中文</a></li>
-  <li><a href="https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_ar.md" target="_blank">العربية</a></li>
-</ul>
+## 🌐 
+[![Português](https://img.shields.io/badge/Português-green)](https://github.com/SamuelRocha91/restaurantOrders/blob/main/README.md)
+[![Español](https://img.shields.io/badge/Español-yellow)](https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_es.md)
+[![English](https://img.shields.io/badge/English-blue)](https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_en.md)
+[![Русский](https://img.shields.io/badge/Русский-lightgrey)](https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_ru.md)
+[![中文](https://img.shields.io/badge/中文-red)](https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_ch.md)
+[![العربية](https://img.shields.io/badge/العربية-orange)](https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_ar.md)
 
 ![Manipulação de classes no REPL do Python](./gifs/pythonRestaurant.gif)
 
 Este projeto foi desenvolvido para o restaurante **Chapa Quente** com o objetivo de criar uma ferramenta eficiente de construção de cardápios, considerando as restrições alimentares dos clientes e a disponibilidade de ingredientes no estoque. Atualmente, o gerenciamento de receitas e estoque é feito de maneira ineficiente através de arquivos CSV, e este projeto visa solucionar esse problema com uma abordagem mais organizada e funcional.
 
-## 🛠️ Funcionalidades Implementadas
+Aqui está o resumo das seções com `h2`, formatado conforme o padrão que você deseja:
 
-- **Mapeamento de pratos e receitas**: Foi criada uma classe que mapeia os pratos e seus respectivos ingredientes e quantidades.
-- **Gerador de cardápios**: Implementação de uma classe responsável por gerar cardápios com base nas restrições alimentares e na disponibilidade de ingredientes.
-- **Gestão de estoque**: Classe implementada para gerenciar o estoque de ingredientes, garantindo que os pratos disponíveis possam ser preparados com os ingredientes em estoque.
-- **Testes**: Implementação de testes utilizando o framework `pytest`, cobrindo as funcionalidades da aplicação, como a validação de pratos, ingredientes e restrições.
+<details>
+<summary><h2>Funcionalidades Implementadas</h2></summary>
 
-## 🚵 Habilidades Exercitadas
+- Mapeamento de pratos e receitas.
+- Gerador de cardápios com base em restrições alimentares e disponibilidade de ingredientes.
+- Gestão de estoque de ingredientes.
+- Implementação de testes com o framework `pytest`.
 
-- **Uso de Hashmaps com Dict e Set**: Utilização das estruturas `dict` e `set` do Python para gerenciamento de pratos e ingredientes.
-- **Testes de software**: Prática de escrita de testes unitários para classes utilizando `pytest`.
-- **Orientação a Objetos**: Implementação de classes, métodos e atributos que seguem os princípios de orientação a objetos.
+</details>
 
-## 📋 Requisitos
+<details>
+<summary><h2>Habilidades Exercitadas</h2></summary>
 
-- Python 3.8 ou superior
-- Pip (gerenciador de pacotes do Python)
+- Uso de Hashmaps com Dict e Set.
+- Testes de software com `pytest`.
+- Implementação de classes e princípios de orientação a objetos.
 
-## 🔧 Instalação e Execução
+</details>
 
-Siga as instruções abaixo para clonar e executar o projeto em sua máquina local:
+<details>
+<summary><h2>Requisitos</h2></summary>
 
-### 1. Clone o repositório
+- Python 3.8 ou superior.
+- Pip (gerenciador de pacotes do Python).
 
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-```
+</details>
 
-### 2. Navegue até o diretório do projeto
+<details>
+<summary><h2>Instalação e Execução</h2></summary>
 
-```bash
-cd seu-repositorio
-```
+1. Clone o repositório.
+2. Navegue até o diretório do projeto.
+3. Crie um ambiente virtual (opcional).
+4. Instale as dependências.
+5. Execute os testes automatizados.
 
-### 3. Crie um ambiente virtual (opcional, mas recomendado)
+</details>
 
-```bash
-python3 -m venv venv
-source venv/bin/activate  # No Windows, use: venv\Scripts\activate
-```
-
-### 4. Instale as dependências
-
-Instale as dependências descritas no arquivo `requirements.txt` e no arquivo `dev-requirements.txt`:
-
-```bash
-pip install -r dev-requirements.txt
-```
-
-### 5. Execute os testes
-
-Para rodar os testes automatizados, utilize o comando:
-
-```bash
-pytest --cov=src --cov-report=term-missing
-```
-
-## 📝 Estrutura de Arquivos
-
-A estrutura do projeto é organizada da seguinte forma:
+<details>
+<summary><h2>Estrutura de Arquivos</h2></summary>
 
 ```
 .
@@ -81,7 +61,7 @@ A estrutura do projeto é organizada da seguinte forma:
 │   ├── models/
 │   │   ├── dish.py            # Implementação da classe Dish
 │   │   ├── ingredient.py      # Implementação da classe Ingredient
-│   │   └── stock.py           # Implementação da classe Stock (Gestão de Estoque)
+│   │   └── stock.py           # Implementação da classe Stock
 ├── tests/
 │   ├── test_dish.py           # Testes para a classe Dish
 │   ├── test_ingredient.py     # Testes para a classe Ingredient
@@ -91,9 +71,10 @@ A estrutura do projeto é organizada da seguinte forma:
 └── README.md                  # Documentação do projeto
 ```
 
-## 📦 Dependências
+</details>
 
-As dependências do projeto incluem:
+<details>
+<summary><h2>Dependências</h2></summary>
 
 - [black](https://github.com/psf/black): Formatação de código.
 - [faker](https://github.com/joke2k/faker): Geração de dados falsos para testes.
@@ -103,3 +84,14 @@ As dependências do projeto incluem:
 - [pytest-cov](https://github.com/pytest-dev/pytest-cov): Relatórios de cobertura de testes.
 - [pytest-json](https://github.com/nicoddemus/pytest-json): Plugin para saída JSON dos testes.
 - [pytest-unordered](https://github.com/altendky/pytest-unordered): Plugin para verificar igualdade de conjuntos de forma não ordenada.
+
+</details>
+
+<details>
+<summary><h2>Outros projetos</h2></summary>
+
+-  [Scripts](https://github.com/SamuelRocha91/scripts)
+-  [Algorithms](https://github.com/SamuelRocha91/Algorithms)
+-  [Trybe is not google](https://github.com/SamuelRocha91/trybeIsNotGoogle)
+
+</details>

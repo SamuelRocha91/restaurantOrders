@@ -1,80 +1,59 @@
-# 🍝🦐 Chapa Quente 🍛🥘 - مُوَلِّد القوائم
+# <img src="https://cdn-icons-png.flaticon.com/128/1822/1822921.png" alt="Python Logo" width="52" height="30" />  🍝🦐 Chapa Quente 🍛🥘 - مولد قوائم الطعام <img src="https://cdn-icons-png.flaticon.com/128/1822/1822921.png" alt="Python Logo" width="52" height="30" />
 
-<h2>🌐</h2>
-<ul>
-  <li><a href="https://github.com/SamuelRocha91/restaurantOrders" target="_blank">Português</a></li>
-  <li><a href="https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_es.md" target="_blank">Español</a></li>
-  <li><a href="https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_en.md" target="_blank">English</a></li>
-  <li><a href="https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_ru.md" target="_blank">Русский</a></li>
-  <li><a href="https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_ch.md" target="_blank">中文</a></li>
-  <li><a href="https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_ar.md" target="_blank">العربية</a></li>
-</ul>
+## 🌐 
+[![Português](https://img.shields.io/badge/Português-green)](https://github.com/SamuelRocha91/restaurantOrders/blob/main/README.md)
+[![Español](https://img.shields.io/badge/Español-yellow)](https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_es.md)
+[![English](https://img.shields.io/badge/English-blue)](https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_en.md)
+[![Русский](https://img.shields.io/badge/Русский-lightgrey)](https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_ru.md)
+[![中文](https://img.shields.io/badge/中文-red)](https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_ch.md)
+[![العربية](https://img.shields.io/badge/العربية-orange)](https://github.com/SamuelRocha91/restaurantOrders/blob/main/README_ar.md)
 
+![التعامل مع الفئات في REPL بايثون](./gifs/pythonRestaurant.gif)
 
-![التعامل مع الفئات في Python REPL](./gifs/pythonRestaurant.gif)
+تم تطوير هذا المشروع لمطعم **Chapa Quente** بهدف إنشاء أداة فعالة لبناء قوائم الطعام، مع الأخذ في الاعتبار القيود الغذائية للعملاء وتوافر المكونات في المخزون. حاليًا، يتم إدارة الوصفات والمخزون بطريقة غير فعالة من خلال ملفات CSV، وتهدف هذا المشروع إلى حل هذه المشكلة بطريقة أكثر تنظيمًا ووظيفية.
 
-تم تطوير هذا المشروع لمطعم **Chapa Quente** بهدف إنشاء أداة فعالة لتوليد القوائم، مع مراعاة القيود الغذائية للعملاء وتوافر المكونات في المخزون. حاليًا، يتم إدارة الوصفات والمخزون بطريقة غير فعالة باستخدام ملفات CSV، ويهدف هذا المشروع إلى حل هذه المشكلة بطريقة أكثر تنظيمًا ووظائف.
+إليك ملخص للأقسام مع تنسيق `h2` كما ترغب:
 
-## 🛠️ الميزات المنفذة
+<details>
+<summary><h2>الميزات المنفذة</h2></summary>
 
-- **تخطيط الأطباق والوصفات**: تم إنشاء فئة لتخطيط الأطباق والمكونات وكمياتها.
-- **مولد القوائم**: تنفيذ فئة مسؤولة عن توليد القوائم بناءً على القيود الغذائية وتوافر المكونات.
-- **إدارة المخزون**: تم تنفيذ فئة لإدارة المخزون، لضمان أن الأطباق المتاحة يمكن تحضيرها بالمكونات المتاحة.
-- **الاختبارات**: تنفيذ اختبارات باستخدام إطار العمل `pytest`، تغطي وظائف التطبيق مثل التحقق من الأطباق والمكونات والقيود.
+- رسم خرائط الأطباق والوصفات.
+- مولد قوائم الطعام بناءً على القيود الغذائية وتوافر المكونات.
+- إدارة مخزون المكونات.
+- تنفيذ اختبارات باستخدام إطار العمل `pytest`.
 
-## 🚵 المهارات المتدربة
+</details>
 
-- **استخدام Hashmaps مع Dict وSet**: استخدام هياكل `dict` و `set` في Python لإدارة الأطباق والمكونات.
-- **اختبارات البرمجيات**: ممارسة كتابة اختبارات الوحدات للفئات باستخدام `pytest`.
-- **البرمجة الكائنية التوجه**: تنفيذ الفئات والأساليب والسمات التي تتبع مبادئ البرمجة الكائنية التوجه.
+<details>
+<summary><h2>المهارات التي تم ممارستها</h2></summary>
 
-## 📋 المتطلبات
+- استخدام الخرائط المميزة مع Dict و Set.
+- اختبارات البرمجيات باستخدام `pytest`.
+- تنفيذ الفئات ومبادئ البرمجة الكائنية.
 
-- Python 3.8 أو أعلى
-- Pip (مدير حزم Python)
+</details>
 
-## 🔧 التثبيت والتشغيل
+<details>
+<summary><h2>المتطلبات</h2></summary>
 
-اتبع الإرشادات أدناه لاستنساخ المشروع وتشغيله على جهازك المحلي:
+- بايثون 3.8 أو أعلى.
+- Pip (مدير حزم بايثون).
 
-### 1. استنساخ المستودع
+</details>
 
-```bash
-git clone git@github.com:SamuelRocha91/restaurantOrders.git
-```
+<details>
+<summary><h2>التثبيت والتنفيذ</h2></summary>
 
-### 2. انتقل إلى دليل المشروع
+1. استنساخ المستودع.
+2. الانتقال إلى دليل المشروع.
+3. إنشاء بيئة افتراضية (اختياري).
+4. تثبيت التبعيات.
+5. تشغيل الاختبارات الآلية.
 
-```bash
-cd restaurantOrders
-```
+</details>
 
-### 3. إنشاء بيئة افتراضية (اختياري، لكنه موصى به)
-
-```bash
-python3 -m venv venv
-source venv/bin/activate  # على Windows، استخدم: venv\Scripts\activate
-```
-
-### 4. تثبيت التبعيات
-
-قم بتثبيت التبعيات المدرجة في ملفات `requirements.txt` و `dev-requirements.txt`:
-
-```bash
-pip install -r dev-requirements.txt
-```
-
-### 5. تشغيل الاختبارات
-
-لتشغيل الاختبارات التلقائية، استخدم الأمر:
-
-```bash
-pytest --cov=src --cov-report=term-missing
-```
-
-## 📝 هيكل الملفات
-
-يتم تنظيم هيكل المشروع على النحو التالي:
+<details>
+<summary><h2>هيكل الملفات</h2></summary>
 
 ```
 .
@@ -82,26 +61,37 @@ pytest --cov=src --cov-report=term-missing
 │   ├── models/
 │   │   ├── dish.py            # تنفيذ فئة Dish
 │   │   ├── ingredient.py      # تنفيذ فئة Ingredient
-│   │   └── stock.py           # تنفيذ فئة إدارة المخزون Stock
+│   │   └── stock.py           # تنفيذ فئة Stock
 ├── tests/
 │   ├── test_dish.py           # اختبارات لفئة Dish
 │   ├── test_ingredient.py     # اختبارات لفئة Ingredient
 │   └── test_stock.py          # اختبارات لفئة Stock
-├── dev-requirements.txt       # التبعيات للتطوير والاختبارات
+├── dev-requirements.txt       # التبعيات للتطوير والاختبار
 ├── requirements.txt           # التبعيات الرئيسية للمشروع
-└── README.md                  # وثائق المشروع
+└── README.md                  # توثيق المشروع
 ```
 
-## 📦 التبعيات
+</details>
 
-تشمل تبعيات المشروع:
+<details>
+<summary><h2>التبعيات</h2></summary>
 
-- [black](https://github.com/psf/black): تنسيق الشيفرة.
+- [black](https://github.com/psf/black): تنسيق الكود.
 - [faker](https://github.com/joke2k/faker): توليد بيانات وهمية للاختبارات.
-- [flake8](https://github.com/PyCQA/flake8): أداة لتحليل الشيفرة.
+- [flake8](https://github.com/PyCQA/flake8): أداة لتحليل الكود.
 - [httpx](https://www.python-httpx.org/): مكتبة طلبات HTTP.
 - [pytest](https://pytest.org/): إطار عمل للاختبارات.
 - [pytest-cov](https://github.com/pytest-dev/pytest-cov): تقارير تغطية الاختبارات.
-- [pytest-json](https://github.com/nicoddemus/pytest-json): مكون إضافي لإخراج JSON للاختبارات.
-- [pytest-unordered](https://github.com/altendky/pytest-unordered): مكون إضافي للتحقق من المجموعات غير المرتبة.
+- [pytest-json](https://github.com/nicoddemus/pytest-json): مكون إضافي للإخراج بصيغة JSON للاختبارات.
+- [pytest-unordered](https://github.com/altendky/pytest-unordered): مكون إضافي للتحقق من تساوي المجموعات بشكل غير مرتب.
 
+</details>
+
+<details>
+<summary><h2>مشاريع أخرى</h2></summary>
+
+-  [Scripts](https://github.com/SamuelRocha91/scripts/blob/main/README_ar.md)
+-  [Algorithms](https://github.com/SamuelRocha91/Algorithms/blob/main/README_ar.md)
+-  [Trybe is not google](https://github.com/SamuelRocha91/trybeIsNotGoogle/blob/main/README_ar.md)
+
+</details>
